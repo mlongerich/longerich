@@ -1,1 +1,30 @@
 @import "bootstrap";
+
+body {
+  background: #e1e1e1;
+  color: #64103F;
+}
+
+// Navbar styling
+.navbar {
+  background-color: #64103F;
+}
+
+.navbar .navbar-brand {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+  color: #dddddd;
+}
+
+.navbar .navbar-nav li > a {
+  font-weight: bold;
+  font-size: 110%;
+  padding-top: 15px;
+}
+
+.navbar-default .navbar-nav li > a:hover {
+  color: #dddddd;
+}
